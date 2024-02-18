@@ -1,0 +1,330 @@
+*{
+    margin: 0rem;
+    padding: 0rem;
+    /* font-size: 1; */
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    list-style: none;
+}
+
+:root{
+    /* --brown: rgb(106, 67, 0); */
+    /* --white: rgb(255, 252, 248); */
+    --BurgerBrown: rgb(61, 37, 20);
+}
+
+
+
+
+
+
+html{
+    font-size: 62.5%;
+    /* font-size: 10%; */
+}
+
+body{
+    
+    background-image: url("images/Design.png");
+    background-size: auto;
+    /* background-repeat: repeat-y; */
+}
+
+
+.section1{
+    /* background-image: url("images/Design.png");
+    background-size: cover; */
+    width: 100%;
+    height: 80rem;
+    padding: 5rem;
+    color: var(--BurgerBrown);
+    font-size: 1.8rem;
+    /* font-family: "Montserrat"; */
+    font-weight: bold;
+    transition: 500ms linear;
+}
+
+
+.s1maindiv1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.s1m1childiv1 > h1{
+    font-size: 5rem;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+}
+
+.s1m1childiv1 > img{
+    width: 30rem;
+}
+
+
+
+.s1m1childiv2 > ul{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.s1m1childiv2 > p{
+    display: flex;
+    justify-content: end;
+    /* margin: 1.5rem; */
+    margin: .5rem;
+}
+
+
+.s1m1childiv2 > p > img{
+    /* display: flex; */
+    /* justify-content: end; */
+    margin-right: 1.5rem;
+    /* margin: .5rem; */
+}
+.s1m1childiv2 > ul > li{
+    margin: 1.5rem;
+    padding-left: 3rem;
+    /* background-color: red; */
+}
+
+/* .Phone {
+    line-height: 4.25;
+    text-align: right;
+    position: absolute;
+    left: 1105.938px;
+    top: 107.799px;
+    z-index: 132;
+  }
+   */
+.s1maindiv2{
+    /* background-color: yellowgreen; */
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: space-between;
+}
+.s1m2childiv1{
+    /* background-color: red; */
+    width: 40%;
+    height: 75vh;
+    padding-top: 15rem;
+}
+
+.s1m2childiv2{
+    /* background-color: blue; */
+    width: 55%;
+    height: 75vh;
+    color: var(--BurgerBrown);
+    /* margin-left: 10rem; */
+}
+
+.s1m2childiv1 > p {
+color: var(--BurgerBrown);
+padding-left: 1rem;
+font-family: fantasy;
+font-weight: 10;
+border-width: .2rem;
+border-color: rgb(61, 37, 20);
+border-style: dashed;
+width: 39rem;
+margin: 0px;
+}
+
+.s1m2childiv1 > h6 {
+    font-family: cursive;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    font-weight: bolder;
+    font-size: 12rem;
+    color: var(--BurgerBrown);
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  .s1m2childiv1 > h2 {
+    font-family: cursive;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    font-weight: bolder;
+    font-size: 4rem;
+    color: var(--BurgerBrown);
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  .s1m2childiv2 > img{
+    position: absolute;
+  }
+
+
+.glow{
+    /* background-color: red; */
+    width: 80rem;
+    top: 7rem;
+    right: 8rem;
+
+}
+
+.BurgerImage{
+    right: 20rem;
+    top: 33rem;
+    width: 43rem;   
+    transition: 500ms linear;
+    /* opacity: 10%; */
+}
+.BurgerImage:hover{
+    right: 17rem;
+    top: 29rem;
+    width: 48rem;
+    z-index: 2;
+    /* backface-visibility: hidden; */
+    /* border: 2px solid red; */
+}
+.BurgerImage:hover .Drinks{
+    background-color: green;
+    opacity: 0%;
+    /* z-index: -3; */
+}
+.BurgerImage:hover+.FrenchFries{
+    /* opacity: 0%; */
+    background-color: green;
+}
+.Shadow1{
+    right: 10rem;
+    top: 68rem;
+    width: 63rem;
+    transition: 500ms linear;
+    
+}
+
+.Shadow1:hover{
+    right: 7rem;
+    top: 69rem;
+    width: 68rem;
+    
+
+}
+
+.Drinks{
+    right: 13rem;
+    top: 22.5rem;
+    width: 16.5rem;
+    transition: 500ms linear;
+    /* background-color: green; */
+    
+}
+.Drinks:hover{
+    right: 13rem;
+    top: 18.5rem;
+    width: 18rem;
+    z-index: 1;
+    /* position: fixed; */
+    
+}
+.Shadow{
+    /* background-color: rgba(255, 0, 0, 0.4); */
+    right: 5rem;
+    top: 67rem;
+    width: 33rem;
+    transition: 500ms linear;
+    
+}
+
+.FrenchFries{
+    right: 43rem;
+    top: 24rem;
+    width: 33rem;
+    transition: 500ms linear;
+}
+
+.FrenchFries:hover{
+    right: 33rem;
+    top: 28rem;
+    width: 40rem;
+    z-index: 1;
+    -webkit-transform: rotate(38deg) translateZ(0);
+}
+
+
+  
+.s1m2childiv21{
+    text-align: center;
+    color: white;
+    transition: 500ms linear;
+    font-family: fantasy;
+    font-weight: 100;
+    font-size: 2rem;
+    border-width: 2px;
+    border-color: rgb(255, 255, 255);
+    border-style: dashed;
+    border-radius: 50%;
+    background-color: rgb(225, 17, 17);
+    position: absolute;
+    right: 55rem;
+    top: 57rem;
+    width: 15rem;
+    height: 15rem;
+    z-index: 1;
+    
+}  
+.s1m2childiv21 > h1{
+    font-size: 4rem;
+    padding-top: 3rem;
+}
+
+/* .s1m2childiv21 > .text{
+    text-align: center;
+    border-width: 2px;
+    border-color: rgb(255, 255, 255);
+    border-style: dashed;
+    border-radius: 50%;
+    background-color: rgb(225, 17, 17);
+    position: absolute;
+    left: 71rem;
+    top: 58rem;
+    width: 15rem;
+    height: 15rem;
+    z-index: 1;
+    
+}   */
+
+
+
+
+
+
+
+
+
+
+
+
+
+.section2{
+    width: 100%;
+    height: 200vh;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.s2maindiv1{
+    background-color: rgba(255, 0, 0, 0.323);
+    width: 50%;
+    height: 56rem;
+}
+.s2maindiv2{
+    background-color: rgba(255, 255, 0, 0.305);
+    width: 50%;
+    height: 56rem;
+    /* display: flex;
+    flex-direction: column; */
+}
+.s2m2childiv1{
+    background-color: rgba(0, 255, 38, 0.305);
+    width: 100%;
+    height: 28rem;
+
+}
+.s2m2childiv2{
+    background-color: rgb(166, 0, 255);
+    width: 100%;
+    height: 28rem;
+
+}
